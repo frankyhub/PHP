@@ -1,7 +1,7 @@
 <?php
 
 // KHF DB4333920
-// Tabelle Sensor
+// Tabelle Keller
 // ID Temperatur Feuchte
 
 
@@ -15,7 +15,7 @@ $temp = '22';
 $feuchte = '65';
 
 
-//Verbindung zur Datenbank herstellen und Werte ändern
+//Verbindung zur Datenbank herstellen und Werte Ã¤ndern
 $db->query("UPDATE `keller` SET `Temperatur` = $temp WHERE `keller`.`id` = 1 ");
 $db->query("UPDATE `keller` SET `Feuchte` = $feuchte WHERE `keller`.`id` = 1 ");
 
